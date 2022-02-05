@@ -41,8 +41,9 @@
 | 31  | [Tickers](./tickers.go) | https://gobyexample.com/tickers  |
 | 32  | [Timeouts](./timeouts.go) | https://gobyexample.com/timeouts  |
 | 33  | [Timers](./timers.go) | https://gobyexample.com/timers  |
-| 34  | [Values](./values.go) | https://gobyexample.com/values  |
-| 35  | [Variadic Functions](./variadic-functions.go) | https://gobyexample.com/variadic-functions  |
-| 36  | [Varibles](./varibles.go) | https://gobyexample.com/varibles  |
-| 37  | [Waitgroups](./waitgroups.go) | https://gobyexample.com/waitgroups  |
-| 38  | [Worker Pools](./worker-pools.go) | https://gobyexample.com/worker-pools  |
+| 34  | [Url Parsing](./url-parsing.go) | https://gobyexample.com/url-parsing  |
+| 35  | [Values](./values.go) | https://gobyexample.com/values  |
+| 36  | [Variadic Functions](./variadic-functions.go) | https://gobyexample.com/variadic-functions  |
+| 37  | [Varibles](./varibles.go) | https://gobyexample.com/varibles  |
+| 38  | [Waitgroups](./waitgroups.go) | https://gobyexample.com/waitgroups  |
+| 39  | [Worker Pools](./worker-pools.go) | https://gobyexample.com/worker-pools  |
