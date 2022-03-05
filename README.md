@@ -31,29 +31,30 @@
 | 21  | [If Else](./if-else.go) | https://gobyexample.com/if-else  |
 | 22  | [Interfaces](./interfaces.go) | https://gobyexample.com/interfaces  |
 | 23  | [Json](./json.go) | https://gobyexample.com/json  |
-| 24  | [Maps](./maps.go) | https://gobyexample.com/maps  |
-| 25  | [Methods](./methods.go) | https://gobyexample.com/methods  |
-| 26  | [Multiple Return Values](./multiple-return-values.go) | https://gobyexample.com/multiple-return-values  |
-| 27  | [Mutexes](./mutexes.go) | https://gobyexample.com/mutexes  |
-| 28  | [Non Blocking Channel Operations](./non-blocking-channel-operations.go) | https://gobyexample.com/non-blocking-channel-operations  |
-| 29  | [Pointers](./pointers.go) | https://gobyexample.com/pointers  |
-| 30  | [Range Over Channels](./range-over-channels.go) | https://gobyexample.com/range-over-channels  |
-| 31  | [Range](./range.go) | https://gobyexample.com/range  |
-| 32  | [Rate Limiting](./rate-limiting.go) | https://gobyexample.com/rate-limiting  |
-| 33  | [Recover](./recover.go) | https://gobyexample.com/recover  |
-| 34  | [Recursion](./recursion.go) | https://gobyexample.com/recursion  |
-| 35  | [Select](./select.go) | https://gobyexample.com/select  |
-| 36  | [Sha1 Hashes](./sha1-hashes.go) | https://gobyexample.com/sha1-hashes  |
-| 37  | [Slices](./slices.go) | https://gobyexample.com/slices  |
-| 38  | [Structs](./structs.go) | https://gobyexample.com/structs  |
-| 39  | [Switch](./switch.go) | https://gobyexample.com/switch  |
-| 40  | [Tickers](./tickers.go) | https://gobyexample.com/tickers  |
-| 41  | [Timeouts](./timeouts.go) | https://gobyexample.com/timeouts  |
-| 42  | [Timers](./timers.go) | https://gobyexample.com/timers  |
-| 43  | [Url Parsing](./url-parsing.go) | https://gobyexample.com/url-parsing  |
-| 44  | [Values](./values.go) | https://gobyexample.com/values  |
-| 45  | [Variadic Functions](./variadic-functions.go) | https://gobyexample.com/variadic-functions  |
-| 46  | [Varibles](./varibles.go) | https://gobyexample.com/varibles  |
-| 47  | [Waitgroups](./waitgroups.go) | https://gobyexample.com/waitgroups  |
-| 48  | [Worker Pools](./worker-pools.go) | https://gobyexample.com/worker-pools  |
-| 49  | [Writing Files](./writing-files.go) | https://gobyexample.com/writing-files  |
+| 24  | [Line Filters](./line-filters.go) | https://gobyexample.com/line-filters  |
+| 25  | [Maps](./maps.go) | https://gobyexample.com/maps  |
+| 26  | [Methods](./methods.go) | https://gobyexample.com/methods  |
+| 27  | [Multiple Return Values](./multiple-return-values.go) | https://gobyexample.com/multiple-return-values  |
+| 28  | [Mutexes](./mutexes.go) | https://gobyexample.com/mutexes  |
+| 29  | [Non Blocking Channel Operations](./non-blocking-channel-operations.go) | https://gobyexample.com/non-blocking-channel-operations  |
+| 30  | [Pointers](./pointers.go) | https://gobyexample.com/pointers  |
+| 31  | [Range Over Channels](./range-over-channels.go) | https://gobyexample.com/range-over-channels  |
+| 32  | [Range](./range.go) | https://gobyexample.com/range  |
+| 33  | [Rate Limiting](./rate-limiting.go) | https://gobyexample.com/rate-limiting  |
+| 34  | [Recover](./recover.go) | https://gobyexample.com/recover  |
+| 35  | [Recursion](./recursion.go) | https://gobyexample.com/recursion  |
+| 36  | [Select](./select.go) | https://gobyexample.com/select  |
+| 37  | [Sha1 Hashes](./sha1-hashes.go) | https://gobyexample.com/sha1-hashes  |
+| 38  | [Slices](./slices.go) | https://gobyexample.com/slices  |
+| 39  | [Structs](./structs.go) | https://gobyexample.com/structs  |
+| 40  | [Switch](./switch.go) | https://gobyexample.com/switch  |
+| 41  | [Tickers](./tickers.go) | https://gobyexample.com/tickers  |
+| 42  | [Timeouts](./timeouts.go) | https://gobyexample.com/timeouts  |
+| 43  | [Timers](./timers.go) | https://gobyexample.com/timers  |
+| 44  | [Url Parsing](./url-parsing.go) | https://gobyexample.com/url-parsing  |
+| 45  | [Values](./values.go) | https://gobyexample.com/values  |
+| 46  | [Variadic Functions](./variadic-functions.go) | https://gobyexample.com/variadic-functions  |
+| 47  | [Varibles](./varibles.go) | https://gobyexample.com/varibles  |
+| 48  | [Waitgroups](./waitgroups.go) | https://gobyexample.com/waitgroups  |
+| 49  | [Worker Pools](./worker-pools.go) | https://gobyexample.com/worker-pools  |
+| 50  | [Writing Files](./writing-files.go) | https://gobyexample.com/writing-files  |
