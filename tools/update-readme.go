@@ -1,6 +1,7 @@
 package main
 
 import (
+	"encoding/json"
 	"fmt"
 	"io/ioutil"
 	"log"
@@ -9,6 +10,19 @@ import (
 	"strings"
 	"text/template"
 )
+
+type Example struct {
+	Id   string
+	Name string
+}
+
+type Code struct {
+	Index     string
+	FileName  string
+	Title     string
+	Practiced bool
+	Link      string
+}
 
 const SITE_URL = "https://gobyexample.com/"
 
@@ -22,15 +36,9 @@ const tmpl = `
 | Order  | Codes  | Details  |
 |---|---|---|
 {{- range $index, $val := .}}
-| {{$index}}  | [{{$val.Title}}](./{{$val.FileName}}) | {{$val.Link}}  |
+| {{.Index}}  | {{if .Practiced }} [{{$val.Title}}](./{{$val.FileName}}) {{else}} {{$val.Title}} {{end}} | {{$val.Link}}  |
 {{- end}}
 `
-
-type Code struct {
-	FileName string
-	Title string
-	Link string
-}
 
 func check(e error) {
 	if e != nil {
@@ -44,7 +52,17 @@ func main() {
 		log.Fatal(err)
 	}
 
+	exampleBytes, err := os.ReadFile("./tools/all-examples.json")
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	var examples []Example
+	json.Unmarshal(exampleBytes, &examples)
+
 	var codes []Code
+	filesMap := make(map[string]bool)
+
 	for _, f := range files {
 		filename := f.Name()
 		fi, err := os.Stat(filename)
@@ -54,11 +72,12 @@ func main() {
 
 		if fi.Mode().IsRegular() && filepath.Ext(f.Name()) == ".go" {
 			fileBaseName := strings.TrimSuffix(filename, filepath.Ext(filename))
-			title := strings.ReplaceAll(fileBaseName, "-", " ")
-			title = strings.Title(title)
-
-			codes = append(codes, Code{FileName: filename, Title: title, Link: fmt.Sprintf("%s%s", SITE_URL, fileBaseName)})
+			filesMap[fileBaseName] = true
 		}
+	}
+
+	for index, example := range examples {
+		codes = append(codes, Code{Index: fmt.Sprintf("%.2d", index+1), FileName: fmt.Sprintf("%s.go", example.Id), Title: example.Name, Practiced: filesMap[example.Id], Link: fmt.Sprintf("%s%s", SITE_URL, example.Id)})
 	}
 
 	t := template.Must(template.New("tmpl").Parse(tmpl))
