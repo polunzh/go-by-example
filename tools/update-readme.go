@@ -85,4 +85,5 @@ func main() {
 	check(err)
 
 	t.Execute(f, codes)
+	fmt.Println("Updated README!")
 }
