@@ -49,8 +49,8 @@
 | 40  |  [原子计数器](./atomic-counters.go)  | https://gobyexample.com/atomic-counters  |
 | 41  |  [互斥锁](./mutexes.go)  | https://gobyexample.com/mutexes  |
 | 42  |  [状态协程](./stateful-goroutines.go)  | https://gobyexample.com/stateful-goroutines  |
-| 43  |  排序  | https://gobyexample.com/sorting  |
-| 44  |  使用函数自定义排序  | https://gobyexample.com/sorting-by-functions  |
+| 43  |  [排序](./sorting.go)  | https://gobyexample.com/sorting  |
+| 44  |  [使用函数自定义排序](./sorting-by-functions.go)  | https://gobyexample.com/sorting-by-functions  |
 | 45  |  Panic  | https://gobyexample.com/panic  |
 | 46  |  Defer  | https://gobyexample.com/defer  |
 | 47  |  [Recover](./recover.go)  | https://gobyexample.com/recover  |
