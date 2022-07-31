@@ -59,7 +59,7 @@
 | 50  |  文本模板  | https://gobyexample.com/text-templates  |
 | 51  |  正则表达式  | https://gobyexample.com/regular-expressions  |
 | 52  |  [JSON](./json.go)  | https://gobyexample.com/json  |
-| 53  |  XML  | https://gobyexample.com/xml  |
+| 53  |  [XML](./xml.go)  | https://gobyexample.com/xml  |
 | 54  |  [时间](./time.go)  | https://gobyexample.com/time  |
 | 55  |  时间戳  | https://gobyexample.com/epoch  |
 | 56  |  时间的格式化和解析  | https://gobyexample.com/time-formatting-parsing  |
