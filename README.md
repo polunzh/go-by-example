@@ -68,7 +68,7 @@
 | 59  |  [URL 解析](./url-parsing.go)  | https://gobyexample.com/url-parsing  |
 | 60  |  SHA256 散列  | https://gobyexample.com/sha256-hashes  |
 | 61  |  [Base64 编码](./base64-encoding.go)  | https://gobyexample.com/base64-encoding  |
-| 62  |  读文件  | https://gobyexample.com/reading-files  |
+| 62  |  [读文件](./reading-files.go)  | https://gobyexample.com/reading-files  |
 | 63  |  [写文件](./writing-files.go)  | https://gobyexample.com/writing-files  |
 | 64  |  [行过滤器](./line-filters.go)  | https://gobyexample.com/line-filters  |
 | 65  |  [文件路径](./file-paths.go)  | https://gobyexample.com/file-paths  |
