@@ -24,6 +24,13 @@ type Code struct {
 	Link      string
 }
 
+type Template struct {
+	Codes     []Code
+	Completed int
+	Total     int
+	Progress  string
+}
+
 const SITE_URL = "https://gobyexample.com/"
 
 const tmpl = `
@@ -33,9 +40,11 @@ const tmpl = `
 
 ## Table of Contents
 
+Progress __{{.Completed}}/{{.Total}}__
+
 | Order  | Codes  | Details  |
 |---|---|---|
-{{- range $index, $val := .}}
+{{- range $index, $val := .Codes}}
 | {{.Index}}  | {{if .Practiced }} [{{$val.Title}}](./{{$val.FileName}}) {{else}} {{$val.Title}} {{end}} | {{$val.Link}}  |
 {{- end}}
 `
@@ -84,6 +93,6 @@ func main() {
 	f, err := os.Create("README.md")
 	check(err)
 
-	t.Execute(f, codes)
+	t.Execute(f, Template{Codes: codes, Completed: len(filesMap), Total: len(codes), Progress: fmt.Sprintf("%.2f%%", 100*float64(len(filesMap))/float64(len(codes)))})
 	fmt.Println("Updated README!")
 }
