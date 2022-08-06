@@ -5,7 +5,7 @@
 
 ## Table of Contents
 
-Progress __57/79__
+Progress __58/79__
 
 | Order  | Codes  | Details  |
 |---|---|---|
@@ -75,7 +75,7 @@ Progress __57/79__
 | 64  |  [行过滤器](./line-filters.go)  | https://gobyexample.com/line-filters  |
 | 65  |  [文件路径](./file-paths.go)  | https://gobyexample.com/file-paths  |
 | 66  |  [目录](./directories.go)  | https://gobyexample.com/directories  |
-| 67  |  临时文件和目录  | https://gobyexample.com/temporary-files-and-directories  |
+| 67  |  [临时文件和目录](./temporary-files-and-directories.go)  | https://gobyexample.com/temporary-files-and-directories  |
 | 68  |  单元测试和基准测试  | https://gobyexample.com/testing-and-benchmarking  |
 | 69  |  命令行参数  | https://gobyexample.com/command-line-arguments  |
 | 70  |  命令行标志  | https://gobyexample.com/command-line-flags  |
